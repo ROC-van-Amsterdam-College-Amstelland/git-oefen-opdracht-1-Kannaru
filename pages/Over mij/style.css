@@ -60,5 +60,13 @@ color: black;
 
 body{
 background-color: lightblue;
+ 
+}
+
+main{
+    margin: 0 auto;
+}
+p{
+    max-width: 600px
 
 }
