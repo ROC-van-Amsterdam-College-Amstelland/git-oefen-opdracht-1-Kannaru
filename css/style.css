@@ -49,4 +49,26 @@ ul {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+h2, p{
+  text-align: center;
+  text-shadow: 10px;
+  color: black;
+}
 
+
+
+
+body{
+  background-color: lightblue;
+
+}
+
+.foto1{
+  text-align: right;
+  margin-top: 150px;
+}
+
+.foto2{
+  text-align: left;
+  margin-top: -250px;
+}
