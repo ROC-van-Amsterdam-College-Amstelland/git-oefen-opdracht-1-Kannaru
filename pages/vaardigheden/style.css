@@ -49,13 +49,13 @@ ul{
     .dropdown:hover .dropdown-content {
     display: block;
     }
-    h1{
+    main, h1{
         margin: 0 auto;
         max-width: 900px;
         text-align:center;
         margin-top: 40px;
         color: black;
-        font-size: 40px;
+        font-size: 30px;
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     }
     
@@ -67,3 +67,75 @@ ul{
     background-color: lightblue;
     
     }
+
+   #balk1{
+       width: 1000px;
+       height: 75px;
+       background-color: red;
+       margin: 0 auto;  
+       font-size: 0;
+       border: 5px solid black;
+       border-radius: 50px;
+   }
+
+   #groen1{
+       width: 50%;
+       height: 100%;
+       background-color: green;
+       border-top-left-radius: 50px;
+       border-bottom-left-radius: 50px;
+   }
+
+   #balk2{
+    width: 1000px;
+    height: 75px;
+    background-color: red;
+    margin: 0 auto;  
+    font-size: 0;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+#groen2{
+    width: 40%;
+    height: 100%;
+    background-color: green;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+#balk3{
+    width: 1000px;
+    height: 75px;
+    background-color: red;
+    margin: 0 auto;  
+    font-size: 0;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+#groen3{
+    width: 15%;
+    height: 100%;
+    background-color: green;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+
+#balk4 {
+    width: 1000px;
+    height: 75px;
+    background-color: red;
+    margin: 0 auto;  
+    font-size: 0;
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+#groen4{
+    width: 70%;
+    height: 100%;
+    background-color: green;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
