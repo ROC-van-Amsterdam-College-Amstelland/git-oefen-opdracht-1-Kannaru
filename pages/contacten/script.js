@@ -10,7 +10,6 @@ function clock()
     document.getElementById("date").innerHTML=date+" "+month+", "+year;
 }
 
-
 var whichButton = "";
 var counter = 0;                         
 var counter2 = 0;                       
@@ -24,3 +23,9 @@ $("button").on("click", function(){
     $("#span2").html(counter2);
   }
 });
+
+
+function like() {
+    document.body.style.backgroundColor = "green";
+    window.setTimeout("chBackColor()",2);
+  }
