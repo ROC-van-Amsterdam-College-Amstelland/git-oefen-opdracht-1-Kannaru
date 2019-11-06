@@ -12,7 +12,8 @@ function clock()
 
 var whichButton = "";
 var counter = 0;                         
-var counter2 = 0;                       
+var counter2 = 0;  
+var counter3 = 0;                     
 $("button").on("click", function(){     
   whichButton = this.id;                   
   if (whichButton === "button1") {        
@@ -27,5 +28,15 @@ $("button").on("click", function(){
 
 function like() {
     document.body.style.backgroundColor = "green";
+    window.setTimeout("chBackColor()",2);
+  }
+
+  function dislike() {
+    document.body.style.backgroundColor = "darkred";
+    window.setTimeout("chBackColor()",2);
+  }
+
+  function remove() {
+    document.body.style.backgroundColor = "lightblue";
     window.setTimeout("chBackColor()",2);
   }
